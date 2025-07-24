@@ -29,13 +29,13 @@
 .home .img-home .img-box {
     max-width: 450px;
     margin: auto;
-    border-radius: 50%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
 }
 
 .home .img-home .img-box img {
     width: 100%;
-    border-radius: 50%;
-    border: 10px solid transparent;
+    
 }
 
 .home .texto-home p {
